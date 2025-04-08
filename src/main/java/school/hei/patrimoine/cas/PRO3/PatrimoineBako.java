@@ -73,7 +73,7 @@ public class PatrimoineBako implements Supplier<Patrimoine> {
                 AU_8_AVRIL_2025,
                 AU_8_AVRIL_2025,
                 ariary(3_000_000),
-                -12);
+                -0.12);
 
         Set<Possession> possessionsBako = Set.of(bni, bmoi, coffre, ordinateur);
 

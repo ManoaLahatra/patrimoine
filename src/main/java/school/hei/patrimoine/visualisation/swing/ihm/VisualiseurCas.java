@@ -3,6 +3,8 @@ package school.hei.patrimoine.visualisation.swing.ihm;
 import static java.awt.EventQueue.invokeLater;
 
 import java.util.List;
+
+import school.hei.patrimoine.cas.PRO3.PatrimoineBako;
 import school.hei.patrimoine.cas.example.EtudiantPireCas;
 import school.hei.patrimoine.cas.example.PatrimoineCresusSupplier;
 import school.hei.patrimoine.cas.example.PatrimoineRicheSupplier;
@@ -13,9 +15,6 @@ public class VisualiseurCas {
     invokeLater(
         () ->
             new MainIHM(
-                List.of(
-                    new EtudiantPireCas().patrimoine(),
-                    new PatrimoineRicheSupplier().get(),
-                    new PatrimoineCresusSupplier().get())));
+                List.of(new PatrimoineBako().get())));
   }
 }

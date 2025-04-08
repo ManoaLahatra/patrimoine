@@ -24,6 +24,6 @@ public class BakoCasTest {
         var patrimoineBako = patrimoineBako();
         var patrimoineBakoLe31Decembre2025 = patrimoineBako.projectionFuture(LocalDate.of(2025, Month.DECEMBER, 31));
 
-        assertEquals(Argent.ariary(10_375_000), patrimoineBakoLe31Decembre2025.getValeurComptable());
+        assertEquals(Argent.ariary(13_111_657), patrimoineBakoLe31Decembre2025.getValeurComptable());
     }
 }
